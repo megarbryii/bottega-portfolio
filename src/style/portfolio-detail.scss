@@ -1,0 +1,49 @@
+.portfolio-detail-wrapper {
+    width: 100vw;
+    
+    .portfolio-banner {
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.3);
+    }
+
+
+    .portfolio-description-wrapper {
+        text-align: center;
+        margin-top: 42px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        .portfolio-description {
+            width: 700px;
+            font-size: 2em;
+            margin-bottom: 50px;
+        }
+
+        .bottom-content-wrapper {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+            .site-link {
+                padding: 15px;
+                background-color: $azure;
+                border-radius: 3px;
+                text-decoration: none; 
+                color: $cloudy;
+                transition: 0.3s ease-in-out; 
+                
+                &:hover {
+                    background-color: $open-sky;
+                }
+            }
+        }
+    }
+
+    
+}

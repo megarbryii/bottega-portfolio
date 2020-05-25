@@ -1,0 +1,54 @@
+.blog-form-wrapper {
+    @include base-grid();
+    grid-template-columns: 1fr;
+    padding: 42px;
+
+    @include input-element();
+    input {
+        margin-bottom: 0px;
+    }
+
+    
+    .portfolio-manager-image-wrapper {
+        img {
+            
+            object-fit: cover;
+            border-radius: 5px;
+        }
+
+        .image-removal-link {
+            display: flex;
+            justify-content: center;
+
+            a {
+            font-weight: 900;
+            font-size: 2em;
+            color: $open-sky;
+            cursor: pointer;
+            transition: 0.5s ease-in-out;
+
+            &:hover {
+                color: $stop-sign;
+            }
+            }
+        }
+    }
+
+    
+
+    .image-uploaders {
+        @include base-grid();
+        grid-template-columns: 200px;
+
+        
+
+        .dz-message {
+            color: $open-sky;
+            transition: 0.5s ease-in-out;
+
+            &:hover {
+                color: $navy;
+            }
+        }
+    }
+}

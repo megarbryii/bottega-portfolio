@@ -1,0 +1,19 @@
+.about-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: calc(100vh - 84px);
+
+    .left-side {
+        background-size: cover;
+        background-position: center;
+    }
+
+    .right-side {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: $offwhite;
+        padding: 100px;
+    }
+}

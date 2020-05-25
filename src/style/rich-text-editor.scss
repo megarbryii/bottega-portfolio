@@ -1,0 +1,36 @@
+.DraftEditor-root {
+    border: 1px solid $azure;
+    padding: 20px;
+    border-radius: 3px;
+    color: $open-sky;
+}
+
+.rdw-editor-toolbar {
+    color: $open-sky;
+    background-color: $pale-green;
+    border: 1px solid $mint;
+}
+
+.rdw-dropdown-selectedtext {
+    border: 1px solid $mint;
+    color: $open-sky;
+}
+
+.rdw-option-wrapper {
+    border: 1px solid $mint;
+    color: $open-sky;
+}
+
+.rdw-image-modal {
+    left: -215px;
+    background-color: $pale-green;
+}
+
+.rdw-emoji-modal {
+    left: -169px;
+    background-color: $pale-green;
+}
+
+.rdw-embedded-modal {
+    left: -125px;
+}

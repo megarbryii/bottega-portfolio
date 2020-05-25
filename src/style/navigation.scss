@@ -1,0 +1,49 @@
+.nav-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+
+  .left-side {
+    display: flex;
+  }
+
+  .nav-link-wrapper {
+    height: 22px;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+    margin-right: 20px;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+
+    a {
+      color: $open-sky;
+      text-decoration: none;
+      border-bottom: 1px solid transparent;
+      &:hover {
+        color: $cloudy;
+        border-bottom: 1px solid $cloudy;
+      }
+    }
+
+    .nav-link-active {
+      border-bottom: 1px solid $cloudy;
+      color: $cloudy;
+    }
+  }
+
+  
+
+  .right-side {
+    color: $open-sky;
+    .sign-out {
+      cursor: pointer;
+      color: $open-sky;
+      margin-left: 15px;
+      transition: 0.5s ease-in-out;
+
+      &:hover {
+        color: $cloudy;
+      }
+    }
+  }
+}
